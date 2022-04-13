@@ -11,31 +11,31 @@ import Foundation
 
 //пример 1
 
-typealias numberOfshoes = Int
+typealias numberOfShoes = Int
 
-typealias nunmberOfdress = Int
+typealias nunmberOfDress = Int
 
-typealias numberOfbelt = Int
+typealias numberOfBelt = Int
 
-let a1: numberOfshoes = 6
+let a1: numberOfShoes = 6
 
-let b1: nunmberOfdress = 7
+let b1: nunmberOfDress = 7
 
-let c1: numberOfbelt = 2
+let c1: numberOfBelt = 2
 
-let totalOfpurchese = a1 + b1 + c1
+let totalOfPurchese = a1 + b1 + c1
 
 //пример 2
 
-typealias flightTimetoParis = Double
+typealias flightTimeToParis = Double
 
-typealias flightTimetoMadrid = Double
+typealias flightTimeToMadrid = Double
 
-let paris: flightTimetoParis = 3.5
+let paris: flightTimeToParis = 3.5
 
-let madrid: flightTimetoMadrid = 1.5
+let madrid: flightTimeToMadrid = 1.5
 
-let totalTraveltime = paris + madrid
+let totalTravelTime = paris + madrid
 
 //пример 3
 
@@ -63,21 +63,21 @@ var numberOne = 15
 
 var numberTwo = 5.2
 
-var onePlustwo = numberOne + Int(numberTwo)
+var onePlusTwo = numberOne + Int(numberTwo)
 
-var oneMinustwo = Double(numberOne) - numberTwo
+var oneMinusTwo = Double(numberOne) - numberTwo
 
-var oneMultiplytwo = Double(numberOne) * (numberTwo)
+var oneMultiplyTwo = Double(numberOne) * (numberTwo)
 
 //пример 2
 
 typealias cost = Double
 
-var costOfapple = 105
+var costOfApple = 105
 
-var costOforange: cost = 150.5
+var costOfOrange: cost = 150.5
 
-var totalOfcost = Double(costOfapple) + costOforange
+var totalOfcost = Double(costOfApple) + costOfOrange
 
 //пример 3
 
