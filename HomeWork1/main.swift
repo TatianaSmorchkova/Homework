@@ -49,21 +49,21 @@ let dmix = -Double.greatestFiniteMagnitude
 
 //Задание 2: Создайте список товаров с различными характеристиками (количество, название). Используйте typealias.
 
-typealias nameOfproduct = String
+typealias nameOfProduct = String
 
-typealias amountOfproduct = Int
+typealias amountOfProduct = Int
 
-var product1: nameOfproduct = "Apple"
+var product1: nameOfProduct = "Apple"
 
-var amount1: amountOfproduct = 10
+var amount1: amountOfProduct = 10
 
-var product2: nameOfproduct = "Orange"
+var product2: nameOfProduct = "Orange"
 
-var amount2: amountOfproduct = 5
+var amount2: amountOfProduct = 5
 
-var product3: nameOfproduct = "Banana"
+var product3: nameOfProduct = "Banana"
 
-var amount3: amountOfproduct = 8
+var amount3: amountOfProduct = 8
 
 //Задание 3: Напишите различные выражения с приведением типа.
 
