@@ -17,13 +17,13 @@ var age: UInt = 10
 
 let growth: UInt = 165
 
-var cost1: Float = 100.5
+var costOne: Float = 100.5
 
-let cost2: Float = 55.55
+let costTwo: Float = 55.55
 
-var number1: Double = 157.69486968
+var numberOne: Double = 157.69486968
 
-let number2: Double = -837.78968995
+let numberTwo: Double = -837.78968995
 
 var shop: String = "Lego"
 
@@ -35,17 +35,17 @@ let minInt = Int.min
 
 let maxInt = Int.max
 
-let Unit = UInt.max
+let uIntMax = UInt.max
 
-let Uint = UInt.min
+let uIntMin = UInt.min
 
-let fmax = Float.greatestFiniteMagnitude
+let floatMax = Float.greatestFiniteMagnitude
 
-let fmin = -Float.greatestFiniteMagnitude
+let floatMin = -Float.greatestFiniteMagnitude
 
-let dmax = Double.greatestFiniteMagnitude
+let doubleMax = Double.greatestFiniteMagnitude
 
-let dmix = -Double.greatestFiniteMagnitude
+let doubleMin = -Double.greatestFiniteMagnitude
 
 //Задание 2: Создайте список товаров с различными характеристиками (количество, название). Используйте typealias.
 
@@ -53,17 +53,17 @@ typealias nameOfProduct = String
 
 typealias amountOfProduct = Int
 
-var product1: nameOfProduct = "Apple"
+var productOne: nameOfProduct = "Apple"
 
-var amount1: amountOfProduct = 10
+var amountOne: amountOfProduct = 10
 
-var product2: nameOfProduct = "Orange"
+var productTwo: nameOfProduct = "Orange"
 
-var amount2: amountOfProduct = 5
+var amountTwo: amountOfProduct = 5
 
-var product3: nameOfProduct = "Banana"
+var productThree: nameOfProduct = "Banana"
 
-var amount3: amountOfProduct = 8
+var amountThree: amountOfProduct = 8
 
 //Задание 3: Напишите различные выражения с приведением типа.
 
@@ -71,7 +71,7 @@ let mounth = 12
 
 print(mounth)
 
-let mounth2 = Double(mounth)
+let mounthTwo = Double(mounth)
 
 print(mounth2)
 
