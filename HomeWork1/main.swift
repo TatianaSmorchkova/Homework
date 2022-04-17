@@ -73,7 +73,7 @@ print(mounth)
 
 let mounthTwo = Double(mounth)
 
-print(mounth2)
+print(mounthTwo)
 
 
 let days = 365.5
@@ -93,4 +93,3 @@ let mySurname = "Сморчкова"
 let dateOfBirth = "21 апреля 1996 года"
 
 var myAge = 25
-
