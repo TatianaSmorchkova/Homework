@@ -13,17 +13,17 @@ import Foundation
 
 typealias numberOfShoes = Int
 
-typealias nunmberOfDress = Int
+typealias numberOfDress = Int
 
 typealias numberOfBelt = Int
 
-let a1: numberOfShoes = 6
+let shoesCount: numberOfShoes = 6
 
-let b1: nunmberOfDress = 7
+let dressCount: numberOfDress = 7
 
-let c1: numberOfBelt = 2
+let beltCount: numberOfBelt = 2
 
-let totalOfPurchese = a1 + b1 + c1
+let totalOfPurchese = shoesCount + dressCount + beltCount
 
 //пример 2
 
@@ -43,31 +43,31 @@ typealias student = String
 
 typealias phrase = String
 
-let n1: student = "Tom"
+let firstStudentName: student = "Tom"
 
-let n2: student = "Ann"
+let secondStudentName: student = "Ann"
 
-let n3: student = "Piter"
+let thirdStudentName: student = "Piter"
 
-let n4: student = "Kate"
+let fourthStudentName: student = "Kate"
 
-let n5: phrase = "In my class 4 friends:"
+let text: phrase = "In my class 4 friends:"
 
-let total = n5 + " " + n1 + ", " + n2 + ", " + n3 + ", " + n4
+let total = text + " " + firstStudentName + ", " + secondStudentName + ", " + thirdStudentName + ", " + fourthStudentName
 
 //Создайте различные выражения с приведением типа
 
 //пример 1
 
-var numberOne = 15
+var milkVolumeOne = 15
 
-var numberTwo = 5.2
+var milkVolumeTwo = 5.2
 
-var onePlusTwo = numberOne + Int(numberTwo)
+var onePlusTwo = milkVolumeOne + Int(milkVolumeTwo)
 
-var oneMinusTwo = Double(numberOne) - numberTwo
+var oneMinusTwo = Double(milkVolumeOne) - milkVolumeTwo
 
-var oneMultiplyTwo = Double(numberOne) * (numberTwo)
+var oneMultiplyTwo = Double(milkVolumeOne) * (milkVolumeTwo)
 
 //пример 2
 
@@ -77,25 +77,25 @@ var costOfApple = 105
 
 var costOfOrange: cost = 150.5
 
-var totalOfcost = Double(costOfApple) + costOfOrange
+var totalOfCost = Double(costOfApple) + costOfOrange
 
 //пример 3
 
-let waterDay1 = 2
+let waterDayOne = 2
 
-let waterDay2 = 2.5
+let waterDayTwo = 2.5
 
-let waterDay3 = 1.5
+let waterDayThree = 1.5
 
-Int(waterDay2)
+Int(waterDayTwo)
 
-String(waterDay1)
+String(waterDayOne)
 
-UInt8(waterDay3)
+UInt8(waterDayThree)
 
-Double(waterDay1)
+Double(waterDayOne)
 
-Float(waterDay1)
+Float(waterDayOne)
 
 // Так же как в математеке поиграйтесь с выражениями - + /
 
@@ -111,26 +111,26 @@ Float(waterDay1)
 
 //Пример 2
 
-let primer1 = 3 + 1
+let primerOne = 3 + 1
 
-let primer2 = 4 * 4
+let primerTwo = 4 * 4
 
-var premer3 = primer1 + primer2
+var premerThree = primerOne + primerTwo
 
-var primer4 = (primer1 + primer2) * 2
+var primerFour = (primerOne + primerTwo) * 2
 
 //Пример 3
 
-let number1 = 5
+let numberOne = 5
 
-let number2 = 4.5
+let numberTwo = 4.5
 
-let number3 = 7.5
+let numberThree = 7.5
 
-let number4 = 9
+let numberFour = 9
 
-number1 + number4
+numberOne + numberFour
 
-number2 * number3
+numberTwo * numberThree
 
-Double(number1) + number2
+Double(numberOne) + numberTwo
