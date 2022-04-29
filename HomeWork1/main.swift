@@ -15,8 +15,8 @@ let numberThree = "30"
 let numberFour = "10"
 let numberFive = "10"
 
-if let chisloOne = Int(numberOne), let chisloTwo = Int(numberTwo), let chisloThree = Int(numberThree), let chisloFour = Int(numberFour), let chisloFive = Int(numberFive){
-    chisloOne + chisloTwo + chisloThree + chisloFour + chisloFive
+if let numberOne = Int(numberOne), let numberTwo = Int(numberTwo), let numberThree = Int(numberThree), let numberFour = Int(numberFour), let numberFive = Int(numberFive){
+    numberOne + numberTwo + numberThree + numberFour + numberFive
 }
 
 //Создать 3 константы со значением nil.
@@ -25,8 +25,8 @@ let oranges : Int? = nil
 let bananas : Int? = nil
 let mangos : Int? = nil
 
-if let fruitOne = oranges, let fruitTwo = bananas, let fruitThree = mangos {
-    fruitOne + fruitTwo + fruitThree
+if let oranges = oranges, let bananas = bananas, let mangos = mangos {
+    oranges + bananas + mangos
 } else {
     print("fruit nil")
 }
