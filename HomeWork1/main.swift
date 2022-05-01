@@ -11,11 +11,11 @@ import Foundation
 
 
 calculation: for _ in 0...200 {
-    for i in 0..<20 {
-        if i == 15 {
+    for index in 0..<20 {
+        if index == 15 {
             break calculation
         }
-        print(i)
+        print(index)
     }
 }
 
