@@ -9,7 +9,7 @@ import Foundation
 
 //Создать 3 функции:
 //первая функция принимает массив Int и сортирует его по порядку (возрастание). После этого распечатывает результат в консоль;
-var money = [1,250,60,89,3,98,48,6,8]
+let money = [1, 250, 60, 89, 3, 98, 48, 6, 8]
 func moneyCalculated(money: [Int]) {
     print(money.sorted())
 }
@@ -18,12 +18,12 @@ moneyCalculated(money: money)
 
 
 //вторая функция принимает массив String, меняет 1, 2 и 3 элементы сортирует по алфавиту.После этого распечатывает результат в консоль;
-var contries = ["Tyrkey", "Belarus", "China", "Russia"]
+let contries = ["Tyrkey", "Belarus", "China", "Russia"]
 func partners(contries: [String]) {
     var changeCountries = contries
- changeCountries[1] = "Latvia"
- changeCountries[2] = "Litva"
- changeCountries[3] = "Poland"
+    changeCountries[1] = "Latvia"
+    changeCountries[2] = "Litva"
+    changeCountries[3] = "Poland"
     print(changeCountries.sorted())
 }
 partners(contries: contries)
@@ -34,7 +34,7 @@ let myName = ["Татьяна"]
 let mySurname = ["Сморчкова"]
 
 func anketa(name: [String], surname: [String]) {
-print(myName + mySurname)
+    print(myName + mySurname)
 }
 anketa(name: myName, surname: mySurname)
 
@@ -45,12 +45,12 @@ anketa(name: myName, surname: mySurname)
 var jurnal = [String]()
 
 func addStudents(name: String, profeccional: String, grade: Int) {
-   
+    
     jurnal.append(name)
     jurnal.append(profeccional)
     jurnal.append("\(grade)")
     
-print(jurnal)
+    print(jurnal)
 }
 addStudents(name: "Ivan", profeccional: "ios Dev", grade: 5)
 addStudents(name: "Nikita", profeccional: "android Dev", grade: 4)
@@ -66,19 +66,19 @@ addStudents(name: "Kate", profeccional: "pianist", grade: 5)
 for anketaOfStudent in jurnal {
     print(anketaOfStudent)
 }
-        
+
 //Создать функцию которая принимает имя и фамилию, потом положить это в массив и вывести результат в консоль.
 
 var myAnketa = [String]()
 
 func myDate(name: String, surname: String) {
-   
+    
     myAnketa.append(name)
     myAnketa.append(surname)
     
     print(myAnketa)
 }
-    myDate(name: "Tatiana", surname: "Smorchkova")
+myDate(name: "Tatiana", surname: "Smorchkova")
 
 
 //Создайте функцию которая принимает параметры и вычисляет площадь круга.
@@ -88,7 +88,7 @@ let diametr = 2
 
 func squareOfCircle(radius: Double, diametr: Int) -> Double {
     let result = radius * (Double(diametr) * 2)
-return result
+    return result
 }
 squareOfCircle(radius: radius, diametr: diametr)
 
@@ -110,13 +110,13 @@ let three = ["3", "7"]
 func calculated(codeOne: [String], codeTwo: [String], codeThree: [String]) {
     let summCode = codeOne + codeTwo + codeThree
     var summ = 0
-    for code in summCode {
+    for code in summCode  {
         if let number = Int(code) {
             summ += number
+        }
+        print(summ)
     }
+    
 }
-    print(summ)
-}
-
 calculated(codeOne: ["1", "6"], codeTwo: ["2", "5"], codeThree: ["3", "7"])
 
