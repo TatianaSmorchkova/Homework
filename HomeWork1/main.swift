@@ -27,7 +27,7 @@ struct IOSCollection {
 class Ref<T> {
     var value: T
     init(value: T) {
-    self.value = value
+        self.value = value
     }
 }
 
@@ -36,19 +36,19 @@ struct Container<T> {
     init(value: T) {
         self.ref = Ref(value: value)
     }
-
-var value: T {
-    get {
-        ref.value
-    }
-    set {
-        guard (isKnownUniquelyReferenced(&ref)) else {
-            ref = Ref(value: newValue)
-            return
+    
+    var value: T {
+        get {
+            ref.value
         }
-        ref.value = newValue
+        set {
+            guard (isKnownUniquelyReferenced(&ref)) else {
+                ref = Ref(value: newValue)
+                return
+            }
+            ref.value = newValue
+        }
     }
-}
 }
 var iosCollection = IOSCollection()
 var containerOne = Container(value: iosCollection)
@@ -73,15 +73,15 @@ protocol Hotel {
 class HotelAlfa: Hotel {
     var roomCount: Int
     required init(roomCount: Int) {
-    self.roomCount = roomCount
-}
+        self.roomCount = roomCount
+    }
 }
 
 //Создать protocol GameDice у него {get} свойство numberDice далее нужно расширить Int так что б когда мы напишем такую конструкцию "let diceCoub = 4 \n diceCoub.numberDice" в консоле мы увидели такую строку - "Выпало 4 на кубике"
 
 protocol GameDice {
     var numberDice: String {get}
-
+    
 }
 
 extension Int: GameDice {
@@ -104,18 +104,18 @@ protocol Summary {
 
 extension Summary {
     var education: String? {
-        return "высшее"
+        return nil
     }
     
 }
-    class Interview: Summary {
-        var name: String
-        
-        func summaryReview() ->  String {
-            return "Имя кандидата на должность менеджера - \(name)"
+class Interview: Summary {
+    var name: String
+    
+    func summaryReview() ->  String {
+        return "Имя кандидата на должность менеджера - \(name)"
     }
-        init(name: String) {
-            self.name = name
-        }
+    init(name: String) {
+        self.name = name
     }
+}
 print(Interview(name: "Артем").summaryReview())
